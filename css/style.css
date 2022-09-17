@@ -1,19 +1,22 @@
 body {
     background: #f5f6f7;
-      color: #000000;
-      font-family: Helvetica;
-      margin: 0;
+    color: #000000;
+    font-family: Helvetica;
+    margin: 0;
   }
 header {
     width: 100%;
-      height: 195px;
-      background-color: #9ADAFE;
-      display: flex;
-    justify-content: space-between;
+    height: 195px;
+    background-color: #9ADAFE;
+    display: flex;
+    justify-content:left;
     align-items: center;
-    position: fixed;
     top: 0;
   }
+
+.titulo {
+    justify-content: center;
+    }
 #benitologo {
     width: max(50px, 7vw);
   }
